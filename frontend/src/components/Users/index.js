@@ -10,7 +10,7 @@ class Users extends Component{
     
     getUsersData = async()=>{
         try{
-        const url ="http://localhost:4000/users"
+        const url ="https://userbackend-4rmz.onrender.com/users"
         
         const response = await fetch(url)
         const usersData = await response.json()
@@ -30,7 +30,7 @@ class Users extends Component{
     updateUserDetails = async (props)=>{
         const {id,firstName,lastName,email,department} = props
         try{
-        const url = "http://localhost:4000/users"
+        const url = "https://userbackend-4rmz.onrender.com/users"
         const options = {
             method:"PUT",
             headers:{
@@ -55,7 +55,7 @@ class Users extends Component{
     }
     }
     deleteUserDetails = async(id)=>{
-        const url = `http://localhost:4000/users/${id}`
+        const url = `https://userbackend-4rmz.onrender.com/users/${id}`
         const options = {
             method:"DELETE",
             headers:{

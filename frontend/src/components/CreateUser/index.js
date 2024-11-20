@@ -12,7 +12,7 @@ const [errMsg,setErrMsg] = useState("")
 
 const addUser = async(event)=>{
     event.preventDefault()
-    const url = "http://localhost:4000/users"
+    const url = "https://userbackend-4rmz.onrender.com/users"
     const options ={
         method:"POST",
         headers: {
