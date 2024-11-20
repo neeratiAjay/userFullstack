@@ -1,0 +1,95 @@
+.user-container{
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.heading-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.create-user-btn{
+    background-color:rgb(18, 219, 108);
+    border:none;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.heading{
+    font-size:24px;
+    font-family: "roboto";
+    font-weight: 400;
+    margin: 10px;
+}
+.users-list-container{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    padding: 0;
+    width: 100%;
+}
+.errMsg{
+    font-size: 14px;
+    text-align: center;
+    font-family: "roboto";
+    font-weight: bold;
+}
+.empty-data{
+    text-align: center;
+    margin: 20px;
+}
+@media screen and(min-width:567px){
+    .heading{
+        font-size: 28px;
+        font-family: "roboto";
+        font-weight: 400;
+    }
+    .create-user-btn{
+        background-color:rgb(18, 219, 108);
+        border:none;
+        border-radius: 8px;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        font-family: "roboto";
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+@media screen and(min-width:768px){
+    .heading{
+        font-size:32px;
+        font-family: "roboto";
+        font-weight: 400;
+    }
+    .create-user-btn{
+        background-color:rgb(18, 219, 108);
+        border:none;
+        border-radius: 8px;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        font-family: "roboto";
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 24px;
+        text-decoration: none;
+       
+    }
+}
+

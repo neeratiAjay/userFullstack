@@ -1,0 +1,352 @@
+
+.list-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid hsl(199, 94%, 49%);
+    border-radius: 12px;
+    width: 94%;
+    min-height: 100px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-details-container{
+    display: flex;
+    flex-direction: column;
+   margin: 10px;
+}
+.name{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "roboto";
+    margin: 0;
+    padding: 0;
+    color: #000000;
+
+}
+.value-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #0f0f0f;
+}
+
+.btn-edit{
+    background-color: transparent;
+    border: 1px solid #1a4f76;
+    border-radius: 4px;
+    height:25px;
+    width:80px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    color: #1a4f76;
+    font-weight:bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn-delete{
+    background-color: transparent;
+    border: 1px solid #e9190c;
+    border-radius: 4px;
+    height:25px;
+    width:80px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    color:#e9190c;
+    font-weight:bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+.text-line{
+    text-decoration: line-through;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.flex-row{
+    
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-self: flex-end;
+}
+.edit-input{
+    height: 25px;
+    width:80%;
+    border:1px solid #bfbfbf;
+    border-radius: 2px;
+    outline: none;
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: 400;
+    margin: 10px;
+    padding-left: 5px;
+}
+.cancel-btn{
+    height:25px;
+    width:80px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    background-color:#20b2ef;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+
+}
+.save-btn{
+    height:25px;
+    width:80px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    background-color:#0af3ac;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+
+}
+.edit-form-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    min-width: 280px;
+    padding: 10px;
+    
+    margin: 0;
+}
+@media screen and(min-width:576px){
+   
+   
+    .btn-edit{
+        height:30px;
+        width: 100px;
+        font-size: 16px;
+
+    }
+    .btn-delete{
+        height:30px;
+        width: 100px;
+        font-size: 16px;
+    }
+    
+    .edit-input{
+        height:28px;
+        width:80%;
+        border:1px solid #bfbfbf;
+        border-radius: 2px;
+        outline: none;
+        font-size: 14px;
+    }
+    .cancel-btn{
+        height:30px;
+        width:100px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        text-align: center;
+        background-color:#20b2ef;
+        color: #ffffff;
+        font-weight: 400;
+        border-radius: 8px;
+    
+    }
+    .save-btn{
+        height:30px;
+        width:100px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-size: 14px;
+        text-align: center;
+        background-color:#0af3ac;
+        color: #ffffff;
+        font-weight: 400;
+        border-radius: 8px;
+    
+    }
+}
+@media screen and (min-width:768px){
+   
+   
+    .btn-edit{
+        height:30px;
+        width: 120px;
+        font-size: 18px;
+
+    }
+    .btn-delete{
+        height:35px;
+        width: 120px;
+        font-size: 18px;
+    }
+   
+    .edit-input{
+        height:32px;
+        width:80%;
+        border:1px solid #bfbfbf;
+        border-radius: 2px;
+        outline: none;
+        font-size: 16px;
+
+    }
+    .cancel-btn{
+        height:34px;
+        width:100px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-size: 16px;
+        text-align: center;
+        background-color:#20b2ef;
+        color: #ffffff;
+        font-weight: 400;
+        border-radius:12px;
+    
+    }
+    .save-btn{
+        height:34px;
+        width:100px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-size: 16px;
+        text-align: center;
+        background-color:#0af3ac;
+        color: #ffffff;
+        font-weight: 400;
+        border-radius: 12px;
+    
+    }
+}
+
+
+
+.label{
+    color:#475569;
+    font-family: "roboto";
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.input{
+    height: 25px;
+    min-width: 200px;
+    border: 1px solid #ea580c;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+
+}
+.submit-btn{
+    height: 30px;
+    min-width: 90px;
+    font-family: "roboto";
+    background-color:#3194ef;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+.error-text{
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: 300;
+    color: #ff0b37 ;
+    margin-top:0;
+    text-align: center;
+}
+
+
+@media screen and (min-width:576px){
+   
+   
+    .label{
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+    .input{
+        height: 28px;
+        min-width: 280px;
+        
+    }
+    .submit-btn{
+        height: 30px;
+        min-width: 120px;
+        font-family: "roboto";
+        background-color:#3194ef;
+        outline: none;
+        cursor: pointer;
+        border:none;
+        border-radius: 12px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 14px;
+    }
+   
+
+}
+
+@media screen and(min-width:768px){
+   
+    
+    .label{
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+    .input{
+        height:33px;
+        width: 300px;
+        
+    }
+    .submit-btn{
+        height: 38px;
+        min-width: 120px;
+        font-family: "roboto";
+        background-color:#3194ef;
+        outline: none;
+        cursor: pointer;
+        border:none;
+        border-radius: 14px;
+        text-align: center;
+        color: #ffffff;
+        font-size:18px;
+    }
+   
+
+}
